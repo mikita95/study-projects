@@ -1,0 +1,27 @@
+Good language
+There are build-in things like:
+    1) Integer variables
+        * var x <==> int x = 0;
+        * var x = 5 <=> int x = 5;
+        * var a, b = 2,3 <=> int a = 2; int b = 3;
+        * var a, b = 2 <=> int a = 2; int b = 0;
+        * var a, b = f1(), f2() <=> int a = f1(); int b = f2();
+    2) Boolean expressions
+    3) Arithmetic expressions
+        * int x = (2 + 3) * 5 / 7
+    4) Loops
+        * for (i: 1..10) {...} <=> for (int i = 1; i < 10; i++) {...}
+        * for (i: 1..10; j: 2..i) {...} <=> for (int i = 1; i < 10; i++) 
+                                                for (int j = 2; j < i; j++)
+                                                    {...}
+        * while (2 < 3) {...}
+    5) if-else structure
+    6) Easy input-output
+        * << "lalala" <=> print "lalala"
+        * <<< "lalala" <=> println "lalala"
+        * var x; >> x; <=> read x;
+    7) Functions
+        * def calc(a, b) { return a + b; }
+    8) Swap
+        * var a, b; swap a, b
+    9) ';' is optional

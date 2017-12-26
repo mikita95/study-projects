@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LorentzSystem:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LorentzSystem_jar</output-path>
+    <root id="archive" name="LorentzSystem.jar">
+      <element id="module-output" name="LorentzSystem" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/gov/nist/math/jama/1.0.3/jama-1.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/yannrichet/JMathArray/1.0/JMathArray-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/github/yannrichet/JMathIO/1.0/JMathIO-1.0.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+    </root>
+  </artifact>
+</component>

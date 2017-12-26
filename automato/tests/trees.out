@@ -1,0 +1,7 @@
+5
+choice 1 2 3
+leaf 2
+choice 2 4 5
+leaf 3
+leaf 4
+

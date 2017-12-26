@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TranslatorToPic</string>
+    <string name="FAIL_MSG">Sorry, check your connection or write another word</string>
+    <string name="API_KEY">trnsl.1.1.20140923T195701Z.a053cc687e5be2ae.9a0ff9e9081d7158184d5b279e0277d356ae6379</string>
+    <string name="RESOURCE_URL_FOR_TEXT">https://translate.yandex.net/api/v1.5/tr.json/translate?lang=en-ru&amp;key=</string>
+    <string name="RESOURCE_URL_FOR_IMAGE">http://ajax.googleapis.com/ajax/services/search/images?v=1.0&amp;imgsz=small&amp;q=</string>
+    <string name="INVITATION">Insert the word</string>
+    <string name="AUTHORS">Authors: Budkov, Maksakova, Markovnikov ^^</string>
+    <string name="CLICK_ON_IMAGE">Do you like it?^^</string>
+</resources>

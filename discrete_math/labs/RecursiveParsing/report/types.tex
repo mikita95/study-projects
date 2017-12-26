@@ -1,0 +1,32 @@
+\documentclass[12pt,a4paper,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{stmaryrd}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+\newcommand{\gq}[1]{\texttt{<<}#1\texttt{>>}}
+\newcommand{\ogq}[1]{\overline{\texttt{<<}#1\texttt{>>}}}
+\begin{document}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Определение}[section]
+\newtheorem{example}{Пример}
+\newtheorem{axiom}{Аксиома}[section]
+\newtheorem{remark}{Замечание}[section]
+\newtheorem{task}{Задача}[section]
+
+\newenvironment{epigraph}% 
+{\begin{list}{}{\setlength{\leftmargin}{0.3\textwidth}}\item[]}% 
+{\end{list}} 
+
+\newenvironment{solution}
+  {\begin{proof}[Решение]}
+  {\end{proof}}
+
+\include{grammar}
+% \include{section2}
+\end{document}

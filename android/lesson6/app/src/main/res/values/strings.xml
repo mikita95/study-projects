@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RSSReader</string>
+    <string name="listActivityTitle">RSS</string>
+    <string name="dialogText">Add new channel</string>
+    <string name="descriptionTitle">News item</string>
+    <string name="rssTitle">RSSReader</string>
+    <string name="dialogTitle">Add new channel</string>
+    <string name="buttonAdd">Add</string>
+    <string name="buttonCancel">Cancel</string>
+    <string name="editTextUrl">http://</string>
+    <string name="updateMsg">Updated</string>
+
+</resources>
